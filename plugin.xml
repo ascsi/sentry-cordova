@@ -54,7 +54,7 @@
     </platform>
 
     <!-- browser -->
-    <!-- <platform name="browser">
+    <platform name="browser">
         <js-module src="www/Cordova.js" name="Sentry">
             <clobbers target="Sentry" />
         </js-module>
@@ -65,7 +65,7 @@
             </feature>
             <plugin name="SentryCordova" value="SentryCordova"/>
         </config-file>
-    </platform> -->
+    </platform>
 
     <hook type="after_plugin_add" src="scripts/plugin_add_rm.js" />
     <hook type="after_platform_add" src="scripts/plugin_add_rm.js" />
